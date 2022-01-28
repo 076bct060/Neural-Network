@@ -50,16 +50,16 @@ The basic conclusion is that the nn is not fitting the training data well so we 
 
 Tuning hyperparameters to perform better result:
 - Changing the hyper-parameters of first layer to 300 and second layer to 200 and running for 5000 iterations the loss function for each 500 iterations are given below 
- - 6.931752200360075
- - 3.217330746399642
- - 3.18574521254387
- - 3.154782748213021
- - 3.124354634623096
- - 3.0944324724254484
- - 3.064990650341306
- - 3.036006142098107
- - 3.007458320233514
- - 2.979328780271083
+   - 6.931752200360075
+   - 3.217330746399642
+   - 3.18574521254387
+   - 3.154782748213021
+   - 3.124354634623096
+   - 3.0944324724254484
+   - 3.064990650341306
+   - 3.036006142098107
+   - 3.007458320233514
+   - 2.979328780271083
 
 
  The test accuaracy is 65.86999999999999
