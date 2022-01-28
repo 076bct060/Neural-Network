@@ -165,7 +165,7 @@ def model(x_train_data,y_train_data,m,learning_rate):
   print(y_train.shape)
   input_layer,first_hidden_layer,second_hidden_layer,no_of_output_layer=def_layer(x_train,no_of_unique_output=10)
   parameters= inatialize_parameters(input_layer,first_hidden_layer,second_hidden_layer,no_of_output_layer)
-  for i in range(10000):
+  for i in range(5000):
     fordward_cache=fordwardPropagation(x_train,parameters)
     cost=computeCost(fordward_cache,y_train,m)
     back_propagation=backPropagation(fordward_cache,parameters,x_train,y_train,m)
