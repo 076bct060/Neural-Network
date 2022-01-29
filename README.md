@@ -68,3 +68,18 @@ Tuning hyperparameters to perform better result:
  The train accuaracy is 64.38166666666667
 
  We can see that our model is performing much much better than initial model so lets us increase the number of itteration to get better result
+# Phase 4
+- Running the model for 10000 itterations instead of 5000 the follweing result were obtained
+    - 6.930226273573128
+    - 3.1863312288646224
+    - 3.125736615352614
+    - 3.0671393307736134
+    - 3.0103473940689494
+    - 2.9552065728811443
+    - 2.901595354101548
+    - 2.849420331102336
+    - 2.798611909204409
+    - 2.7491202786336224 
+ - The test accuaracy is 70.73
+ - The train accuaracy is 69.17333333333333
+ ### The model is performing slightly better but the computational time is getting longer
